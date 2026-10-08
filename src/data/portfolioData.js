@@ -1,3 +1,12 @@
+import alJannatImg from '../assets/al_jannat_project.jpg';
+import aiAssistantImg from '../assets/ai_assistant_project.jpg';
+import fruitDiseaseImg from '../assets/fruit_disease_project.jpg';
+import smartHomeImg from '../assets/smart_home_project.jpg';
+import cmsImg from '../assets/cms_project.jpg';
+import aiSecurityImg from '../assets/ai_security_project.jpg';
+import profileImg from '../assets/profile.jpeg';
+import resumePdf from '../assets/Muhammad_Faizan_Resume.pdf';
+
 export const personalInfo = {
   name: "Muhammad Faizan",
   title: "Web Developer | Python Developer | Software Engineer",
@@ -15,8 +24,8 @@ export const personalInfo = {
   github: "https://github.com",
   linkedin: "https://linkedin.com",
   cgpa: "3.88 / 4.00",
-  profileImage: "/assets/profile.jpeg",
-  resumePdf: "/assets/Muhammad_Faizan_Resume.pdf"
+  profileImage: profileImg,
+  resumePdf: resumePdf
 };
 
 export const stats = [
@@ -126,7 +135,7 @@ export const projects = [
     title: "Al Jannat Educational Foundation Website",
     category: "fullstack",
     categoryLabel: "Full-Stack Web App",
-    image: "/assets/al_jannat_project.jpg",
+    image: alJannatImg,
     summary: "Full-stack responsive educational web portal built with React, Node.js, Express, and SQL database for student records and secure donor submissions.",
     description: "Architected a responsive educational web application for Al Jannat Educational Foundation. Features modern React components, secure backend form handling, donor donation workflows, and relational SQL database integration.",
     highlights: [
@@ -142,7 +151,7 @@ export const projects = [
     title: "AI Virtual Assistant",
     category: "ai",
     categoryLabel: "AI & Voice NLP",
-    image: "/assets/ai_assistant_project.jpg",
+    image: aiAssistantImg,
     summary: "Voice-controlled intelligent assistant built using Python, Natural Language Processing (NLP), and Neural Networks for smart device automation.",
     description: "Developed an intelligent voice assistant capable of parsing user speech, understanding intent through Natural Language Processing, and automating desktop tasks or IoT hardware functions.",
     highlights: [
@@ -158,7 +167,7 @@ export const projects = [
     title: "Fruit Disease Detection System",
     category: "ai",
     categoryLabel: "ML & Vision",
-    image: "/assets/fruit_disease_project.jpg",
+    image: fruitDiseaseImg,
     summary: "Diagnostic tool utilizing Machine Learning algorithms and Image Processing techniques to identify fruit diseases from uploaded images.",
     description: "Created an automated agricultural diagnostic tool leveraging computer vision and machine learning models to detect leaf and fruit infections from photographs, offering treatment recommendations.",
     highlights: [
@@ -174,7 +183,7 @@ export const projects = [
     title: "Smart Home Appliance System (Arduino)",
     category: "iot",
     categoryLabel: "Arduino IoT",
-    image: "/assets/smart_home_project.jpg",
+    image: smartHomeImg,
     summary: "Arduino-based home automation platform enabling wireless Bluetooth control of electrical appliances via a custom mobile app.",
     description: "Designed and built an IoT home automation system utilizing Arduino microcontrollers, Bluetooth communications, and multi-channel relays for remote control of AC/DC appliances.",
     highlights: [
@@ -190,7 +199,7 @@ export const projects = [
     title: "Campus Management System (CMS)",
     category: "fullstack",
     categoryLabel: "CRUD Web App",
-    image: "/assets/cms_project.jpg",
+    image: cmsImg,
     summary: "CRUD web application designed to manage student profiles, course catalogs, instructor assignments, and attendance with role authorization.",
     description: "Full-stack web application designed for campus administration. Features multi-role access control (Admin, Instructor, Student), attendance logging, and course catalogs.",
     highlights: [
@@ -206,7 +215,7 @@ export const projects = [
     title: "AI & Network Security Lab Suite",
     category: "ai",
     categoryLabel: "AI & Security",
-    image: "/assets/ai_security_project.jpg",
+    image: aiSecurityImg,
     summary: "Educational demonstration algorithms covering intrusion detection, socket programming, neural classifiers, and Object-Oriented design.",
     description: "A collection of custom Python scripts created for university lectures to demonstrate network threat modeling, packet inspection, and basic AI classifiers.",
     highlights: [
